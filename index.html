@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
   <title>cNanny - Hire with trust</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="shortcut icon" type="image/ico" href="Assets/favicon.png"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="styles.css"/>
@@ -17,15 +16,8 @@
 
 <!-- Container (Section 1) -->
 <div class="jumbotron-green">
-  <div class="logo">
-    <img alt="cNanny Logo - Hire with trust" src="Assets/cnanny_logo_color.svg"/>
-  </div>
-  <div>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="contact.html">Contact us</a></li>
-    </ul>
-  </div>
-  <br></br>
+  <img alt="cNanny Logo - Hire with trust" src="Assets/cnanny_logo_color.svg"/>
+  <a href="contact.html"><p class="contact">Contact us<p></a>
   <div class="text-center col-sm-8 col-sm-offset-2">
     <h1>Compassionate care for your child</h1>
     <p>The best nannies at 1/6 the price of a  traditional placement agency</p>
@@ -50,11 +42,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#myPage">
-        <img alt="cNanny Logo" src="Assets/cnanny_logo_white.svg"/>
-      </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
+      <a class="navbar-brand" href="#myPage">
+        <img class="small-logo" alt="cNanny Logo" src="Assets/cnanny_logo_white.svg"/>
+      </a>
       <ul class="nav navbar-nav navbar-left">
         <li><a href="#why-cnanny">Why cNanny?</a></li>
         <li><a href="#how-it-works">How it works</a></li>
@@ -70,7 +62,7 @@
 
 <!-- Container (Section 2 (Why cNanny)) -->
 <div id="why-cnanny" class="container-fluid text-center">
-  <div class="row slideanim">
+  <!--- <div class="row slideanim"> -->
     <div class="col-sm-4">
       <img alt="Clock icon" src="Assets/clock_icon.svg"/>
       <h3>Save time nanny hunting</h3>
@@ -86,7 +78,7 @@
       <h3>Hire a nanny you can trust</h3>
       <p>We are committed to ensuring only the most reliable, responsible and caring candidates are profiled on our platform because we know that having a loyal caretaker in your child’s life is vital for optimizing his or her comfort and maximizing your peace of mind.</p>
     </div>
-  </div>
+  <!-- </div> --->
 </div>
 
 <!-- Container (Section 3) -->
@@ -100,8 +92,7 @@
 <!-- Container (Section 4 (How it works)) -->
 <div id="how-it-works" class="container-fluid text-center">
   <h3>Screening Process</h3>
-  <br>
-  <div class="row slideanim">
+  <!-- <div class="row slideanim"> -->
     <div class="col-sm-3">
       <img alt="Checked heart icon" src="Assets/checked_heart_icon.svg"/>
       <h4>Knowledge and personality assessment</h4>
@@ -118,13 +109,15 @@
       <img alt="Checked heart icon" src="Assets/checked_heart_icon.svg"/>
       <h4>Multiple interviews</h4>
     </div>
-  </div>
+  <!-- </div> -->
   <br><br>
-  <div class="col-sm-10 col-sm-offset-1">
+  <div class="col-sm-10 col-sm-offset-1 purple-text">
     <p>cNanny reduces the time burden and the stress of uncertainty parents face in searching and selecting a nanny to care for their child.</p>
   </div>
-  <br><br>
-  <p>Rates range from $18-25 per hour depending the number of children, the age of the child, and any special care considerations.</p>
+  <div class="col-sm-12 p-24-point">
+    <p>Rates range from $18-25 per hour depending the number of children, the age of the child, and any special care considerations.</p>
+  </div>
+</div>
 </div>
 
 <!-- Container (Section 5) -->
@@ -141,7 +134,7 @@
     <div class="text-center">
       <h3>The Most Important Hire You Will Ever Make</h3>
     </div>
-    <div class="text-left">
+    <div class="col-sm-10 col-sm-offset-1 col-xs-12 text-left">
       <p>Our highest value is integrity. We know how precious your child is because we are parents too. cNanny upholds the highest standards of ethics because children not only represent our collective future they also provide an immense value to our lives that is priceless. Trust is incredibly important to us and is what cNanny revolves around.</p>
       <p>We value mutually beneficial relationships. Our nanny candidates have the best intentions in caring for your child. To establish and maintain a loyal, respectful relationship we honor the market rates for personalized childcare.</p>
       <p>We value families and facilitating sincere and supportive human connections.  cNanny strives to help busy parents achieve balance between work and family. With the majority of moms engaged in demanding careers and professions we understand how important it is to connect with others to help in fulfilling our children’s needs. We are committed to assisting women in helping each other and facilitating caring connections, because it really does ‘take a village to raise a child.’</p>
@@ -161,7 +154,7 @@
   <div class="text-center">
     <h2>Frequently Asked Questions</h2>
   </div>
-  <div class="row slideanim">
+  <!-- <div class="row slideanim"> -->
     <div class="col-sm-6 col-xs-12">
         <h3 class="text-center">Parents</h3>
       <div class="panel panel-default text-center">
@@ -212,7 +205,7 @@
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 </div>
 
 
@@ -220,11 +213,15 @@
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <div class="text-left">
-    <img alt="cNanny heart logo" src="Assets/cnanny_heart_icon.svg"/>
-    <p>cNanny copyright &copy; 2016</p>
+  <div class="footer-left">
+    <div class="footer-logo">
+      <img alt="cNanny heart logo" src="Assets/cnanny_heart_icon.svg"/>
+    </div>
+    <div class="footer-text-left">
+      <p>cNanny copyright &copy; 2016</p>
+    </div>
   </div>
-  <div class="text-right">
+  <div class="social-icons"
     <a href="https://www.facebook.com/CNanny-200819430359192/" target="_blank">
       <img class="icon" alt="Facebook icon" src="Assets/facebook_icon.svg"/>
     </a>
